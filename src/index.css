@@ -1,0 +1,7 @@
+.background {
+    background-image: url('/cattle1.jpg');
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    background-size: cover;
+    background-repeat: repeat-y;
+}

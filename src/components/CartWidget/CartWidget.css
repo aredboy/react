@@ -1,0 +1,15 @@
+.cart-image-container {
+    display: flex;
+}
+
+.cart-image {
+    width: 30px;
+    order: 1;
+    cursor: pointer;
+}
+
+.cart-number {
+    font-size: .6em;
+    margin: 17px 0 0 0;
+    order: 1;
+}

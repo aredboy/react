@@ -1,0 +1,17 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 1em;
+}
+.nav-menu li:hover {
+    cursor: pointer;
+}
+
