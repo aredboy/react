@@ -1,20 +1,28 @@
-import { NavBar } from './components/NavBar/NavBar';
+import  NavBar  from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import { data } from './components/Card/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './components/Card/Card';
+import './App.css';
+// import CardContainer from './components/CardContainer/CardContainer';
+import ItemDetailContainer from './components/ItemListContainer/ItemListContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+
 
 const App = () => {
 
-  const products = data.map(product =>(
-    <Cards key={product.id} {...product} />
-  ))
 
   return (
     <>
-      <NavBar/>
-      <ItemListContainer greeting={"Bienvenido al mejor club de cannabis medicinal del país!"}/>
-      <>{products}</>
+    <BrowserRouter>
+        <NavBar/>
+      <Routes>
+        <Route path='/' element={<ItemListContainer/>}/>
+        <Route path='/category/:idCategory' element={<ItemListContainer/>}/>
+        <Route path='/item/:idItem' element={<ItemDetailContainer/>}/>
+        {/* <Route path='/item/:idItem' element={<CardContainer/>}/> */}
+        
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
