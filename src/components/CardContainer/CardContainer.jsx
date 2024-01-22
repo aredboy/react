@@ -1,5 +1,5 @@
 import Cards from '../Card/Card';
-import { data } from '../Card/data';
+import { data } from '../../data';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import { useState, useEffect } from 'react';

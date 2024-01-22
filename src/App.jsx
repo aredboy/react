@@ -3,7 +3,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 // import CardContainer from './components/CardContainer/CardContainer';
-import ItemDetailContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 

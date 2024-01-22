@@ -1,11 +1,11 @@
 import './ItemListContainer.css';
 import ItemList from '../ItemList/ItemList';
 import { useState, useEffect } from 'react';
-import { getProductos, getProductosPorCategoria } from '../../asyncmock';
+import { getProductos, getProductosPorCategoria } from '../../data';
 import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
-  const [ productosB, setProductosB ] = useState([])
+  const [ data, setData ] = useState([]);
 
   const {idCategory} = useParams();
 
@@ -13,17 +13,16 @@ const ItemListContainer = () => {
     const funcionProductos = idCategory ? getProductosPorCategoria : getProductos;
 
     funcionProductos(idCategory)
-    .then(res => setProductosB(res))
+    .then(res => setData(res))
     .catch(error => console.log(error))
 
   }, [idCategory])
 
 
-
   return (
     <div>
-    <h2>Mis Productos</h2>
-    <ItemList productosB={productosB}/>
+    <h3>Productos</h3>
+    <ItemList data={data}/>
     </div>
     
     )

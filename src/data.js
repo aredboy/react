@@ -1,6 +1,6 @@
 export const data = [
     {
-        id: 1,
+        id: "1",
         name: "Acapulco Gold",
         thc: "13.70%",
         cbd: "0.12%",
@@ -19,15 +19,17 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Ánimo, Euforia, Creatividad",
         negatives: "Ojos Secos, Boca Seca, Paranoia, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Acapulco-gold.jpg",
         stock: 100,
         imgAttributionLink:
             "https://commons.wikimedia.org/w/index.php?curid=8998618",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 2,
+        id: "2",
         name: "ACDC",
         thc: "1.40%",
         cbd: "11.20%",
@@ -46,14 +48,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Euforia, Sueño, Relajación",
         negatives: "Boca Seca, Mareo, Ojos secos, Letargo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/ACDC.png",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 3,
+        id: "3",
         name: "Afgoo",
         thc: "17.04%",
         cbd: "0.06%",
@@ -72,14 +76,16 @@ export const data = [
         heightInInchesMax: 30.0,
         feelings: "Relajación, Alegría, Euforia",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Afgoo.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 4,
+        id: "4",
         name: "AK-47",
         thc: "16.60%",
         cbd: "0.30%",
@@ -98,14 +104,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Energética, Relajación, Estimulante, Creatividad, Alegría",
         negatives: "Boca Seca, Mareo, Ojos secos, Paranoia, Letargo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/AK47-WeedStrain.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 5,
+        id: "5",
         name: "Alaskan Thunder Fuck",
         thc: "15.60%",
         cbd: "0.15%",
@@ -124,14 +132,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Euforia, Elevado",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Alaskan_thunder_fuck.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 6,
+        id: "6",
         name: "Amnesia",
         thc: "18.20%",
         cbd: "2.00%",
@@ -150,14 +160,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Euforia, Creatividad, Elevado, Relajación",
         negatives: "Ojos secos, Boca Seca, Mareo, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Amnesia.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 7,
+        id: "7",
         name: "Banana OG",
         thc: "21.36%",
         cbd: "0.14%",
@@ -176,14 +188,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Alegría, Relajación, Euforia",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Banana-OG.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 8,
+        id: "8",
         name: "Berry White",
         thc: "17.30%",
         cbd: "0.04%",
@@ -202,14 +216,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Alegría, Elevado, Euforia",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/BerryWhite.jpg",
         stock: 100,
         imgAttributionLink: "https://herb.co/strains/berry-white/",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 9,
+        id: "9",
         name: "Blue Cookies",
         thc: "21%",
         cbd: "0.05%",
@@ -228,15 +244,17 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Alegría, Elevado, Euforia",
         negatives: "Boca Seca, Ojos secos, Sueño",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Blue-Cookies.jpg",
         stock: 100,
         imgAttributionLink:
             "https://herb.co/strains/blue-cookies-marijuana-strain/",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 10,
+        id: "10",
         name: "Blue Dream",
         thc: "19.20%",
         cbd: "0.10%",
@@ -255,14 +273,16 @@ export const data = [
         heightInInchesMax: null,
         feelings: "Relajación, Creatividad, Energética, Estimulante",
         negatives: "Boca Seca, Ojos secos, Mareo, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/BlueDream.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 11,
+        id: "11",
         name: "Bruce Banner",
         thc: "18.80%",
         cbd: "1.20%",
@@ -281,14 +301,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Euforia, Alegría, Relajación",
         negatives: "Mareo, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Bruce-banner.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 12,
+        id: "12",
         name: "Bubba Kush",
         thc: "18.60%",
         cbd: "0.10%",
@@ -307,14 +329,16 @@ export const data = [
         heightInInchesMax: 30.0,
         feelings: "Relajación, Sueño, Euforia, Alegría",
         negatives: "Boca Seca, Mareo, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Bubba_kush.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 13,
+        id: "13",
         name: "Candyland",
         thc: "18.40%",
         cbd: "0.08%",
@@ -333,14 +357,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Elevado, Relajación",
         negatives: "Sed, Ansiedad, Mareo, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/candyland-strain.jpg",
         stock: 100,
         imgAttributionLink: "https://www.leafly.com/strains/candyland",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 14,
+        id: "14",
         name: "Canna-Tsu",
         thc: "2.00%",
         cbd: "7.10%",
@@ -359,14 +385,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Euforia, Sueño, Alegría",
         negatives: "Mareo, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Canna-Tsu.jpg",
         stock: 100,
         imgAttributionLink: "https://herb.co/strains/canna-tsu/",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 15,
+        id: "15",
         name: "Cannatonic",
         thc: "2.40%",
         cbd: "10.10%",
@@ -385,14 +413,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Sueño, Euforia",
         negatives: "Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Cannatonic.jpg",
         stock: 100,
         imgAttributionLink: "https://www.leafly.com/strains/cannatonic",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 16,
+        id: "16",
         name: "Chernobyl",
         thc: "16.40%",
         cbd: "0.11%",
@@ -411,14 +441,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Euforia, Relajación",
         negatives: "Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Chernobyl.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 17,
+        id: "17",
         name: "Cinderella 99",
         thc: "15.70%",
         cbd: "0.20%",
@@ -437,15 +469,17 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Alegría, Energética, Euforia",
         negatives: "Ansiedad, Paranoia, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Cinderella99.jpg",
         stock: 100,
         imgAttributionLink:
             "https://www.seeds66.com/cinderella-99-from-seeds66_4",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 18,
+        id: "18",
         name: "Clementine",
         thc: "18%",
         cbd: "0.18%",
@@ -464,14 +498,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Energética, Euforia",
         negatives: "Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Clementine.jpg",
         stock: 100,
         imgAttributionLink: "https://tokeandsmokeshop.io/product/clementine/",
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 19,
+        id: "19",
         name: "Cookies and Cream",
         thc: "23.50%",
         cbd: "0.20%",
@@ -490,14 +526,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Relajación, Euforia",
         negatives: "Mareo, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Cookies-n-cream.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 20,
+        id: "20",
         name: "Cracker Jack",
         thc: "19.80%",
         cbd: "0.10%",
@@ -516,14 +554,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Energética, Enfoque, Creatividad",
         negatives: "Paranoia, Ansiedad, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Cracker_Jack.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 21,
+        id: "21",
         name: "Critical Mass",
         thc: "10.40%",
         cbd: "5.70%",
@@ -542,14 +582,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Alegría, Sueño",
         negatives: "Mareo, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Critical_Mass.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 22,
+        id: "22",
         name: "Death Star",
         thc: "16.81%",
         cbd: "0.11%",
@@ -568,14 +610,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Relajación, Alegría, Sueño, Euforia",
         negatives: "Mareo, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Death_Star.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 23,
+        id: "23",
         name: "Do Si Dos",
         thc: "20.7%",
         cbd: "0.07%",
@@ -594,15 +638,17 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Elevado, Relajación, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Do_Si_Dos.jpg",
         stock: 100,
         imgAttributionLink:
             "https://www.spokesman.com/stories/2020/jun/12/strain-month-do-si-dos/",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 24,
+        id: "24",
         name: "Durban Poison",
         thc: "17.80%",
         cbd: "0.60%",
@@ -621,15 +667,17 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Energética, Alegría, Elevado, Enfoque",
         negatives: "Ansiedad, Paranoia, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Durban_Poison.jpg",
         stock: 100,
         imgAttributionLink:
             "https://www.hytiva.com/strains/sativa/durban-poison",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 25,
+        id: "25",
         name: "Dutch Treat",
         thc: "22.37%",
         cbd: "0.20%",
@@ -648,14 +696,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Euforia, Elevado, Creatividad",
         negatives: "Mareo, Boca Seca, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Dutch_Treat.jpg",
         stock: 100,
         imgAttributionLink: "https://www.leafly.com/strains/dutch-treat",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 26,
+        id: "26",
         name: "Forbidden Fruit",
         thc: "15.30%",
         cbd: "0.03%",
@@ -674,14 +724,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Euforia, Relajación, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Forbidden_Fruit.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 27,
+        id: "27",
         name: "Fruity Pebbles OG",
         thc: "19%",
         cbd: "0.20%",
@@ -700,14 +752,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Relajación, Euforia, Risueño, Elevado",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Fruity_Pebbles.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 28,
+        id: "28",
         name: "G-13",
         thc: "16.20%",
         cbd: "0.10%",
@@ -726,14 +780,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Relajación, Euforia, Sueño",
         negatives: "Paranoia, Mareo, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/G-13.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 29,
+        id: "29",
         name: "Gelato",
         thc: "18.70%",
         cbd: null,
@@ -752,14 +808,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Alegría, Relajación, Euforia, Estimulante",
         negatives: "Boca Seca, Ojos secos, Mareo, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Gelato_.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 30,
+        id: "30",
         name: "Girl Scout Cookies",
         thc: "19.10%",
         cbd: "0.27%",
@@ -778,14 +836,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Relajación, Euforia, Hambre, Risueño",
         negatives: "Boca Seca, Ojos secos, Mareo, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Girl_Scout_Cookies.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 31,
+        id: "31",
         name: "GMO",
         thc: "25.7%",
         cbd: "0.15%",
@@ -804,14 +864,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Relajación, Euforia",
         negatives: "Boca Seca, Ojos secos, Mareo",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/GMO.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 32,
+        id: "32",
         name: "Golden Goat",
         thc: "18.00%",
         cbd: "0.11%",
@@ -830,14 +892,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Elevado, Euforia, Verborragia",
         negatives: "Boca seca, Ojos secos, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Golden_Goat.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 33,
+        id: "33",
         name: "Gorilla Glue",
         thc: "21.30%",
         cbd: "0.11%",
@@ -856,14 +920,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Relajación, Euforia",
         negatives: "Mareo, Boca Seca, Ojos secos, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Gorilla_Glue.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 34,
+        id: "34",
         name: "Granddaddy Purple",
         thc: "20%",
         cbd: "0.10%",
@@ -882,14 +948,16 @@ export const data = [
         heightInInchesMax: 30.0,
         feelings: "Relajación, Sueño, Euforia, Alegría, Hambre",
         negatives: "Mareo, Boca Seca, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Granddaddy_Purple.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 35,
+        id: "35",
         name: "Grease Monkey",
         thc: "20.3%",
         cbd: "0.08%",
@@ -908,14 +976,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Sueño, Relajación, Alegría, Hambre",
         negatives: "Mareo, Boca Seca, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Grease_Monkey.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 36,
+        id: "36",
         name: "Harle-Tsu",
         thc: "0.60%",
         cbd: "11%",
@@ -934,14 +1004,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Sueño, Enfoque, Despierto",
         negatives: "Mareo, Boca Seca, Dolor de cabeza, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Harle-Tsu.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 37,
+        id: "37",
         name: "Harlequin",
         thc: "9%",
         cbd: "6.40%",
@@ -960,14 +1032,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Sueño, Euforia, Enfoque, Elevado",
         negatives: "Ansiedad, Mareo, Dolor de Cabeza, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Harlequin.jpg",
         stock: 100,
         imgAttributionLink: "https://www.leafly.com/strains/harlequin",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 38,
+        id: "38",
         name: "Headband",
         thc: "20.80%",
         cbd: "0.08%",
@@ -986,14 +1060,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Euforia, Relajación, Elevado, Creatividad",
         negatives: "Mareo, Boca Seca, Dolor de cabeza, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Headband.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 39,
+        id: "39",
         name: "Hindu Kush",
         thc: "17.10%",
         cbd: null,
@@ -1012,14 +1088,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Sueño, Euforia, Alegría, Hambre",
         negatives: "Paranoia, Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Hindu_Kush.jpg",
         stock: 100,
         imgAttributionLink: "https://growdiaries.com/seedbank/msnl/hindu-kush",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 40,
+        id: "40",
         name: "Jack Herer",
         thc: "18%",
         cbd: "0.10%",
@@ -1038,15 +1116,17 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Creatividad, Energética, Elevado",
         negatives: "Ansiedad, Boca Seca, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Jack_Herer.jpg",
         stock: 100,
         imgAttributionLink:
             "https://cannabispharmuk.com/product/jack-herer-cannabis-strain-uk/",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 41,
+        id: "41",
         name: "Jack the Ripper",
         thc: "19.34%",
         cbd: "0.17%",
@@ -1065,14 +1145,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Energética, Euforia, Creatividad",
         negatives: "Paranoia, Mareo, Boca Seca, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Jack_the_Ripper.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 42,
+        id: "42",
         name: "Jet Fuel",
         thc: "21.36%",
         cbd: "0.11%",
@@ -1091,14 +1173,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Euforia, Elevado, Enfoque",
         negatives: "Paranoia, Mareo, Boca Seca, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Jet_Fuel.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 43,
+        id: "43",
         name: "Kosher Kush",
         thc: "18.47%",
         cbd: "0.13%",
@@ -1117,15 +1201,17 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Alegría, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Kosher_Kush.jpg",
         stock: 100,
         imgAttributionLink:
             "https://growdiaries.com/seedbank/garden-of-green/kosher-kush",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 44,
+        id: "44",
         name: "LA Confidential",
         thc: "17.10%",
         cbd: "0.09%",
@@ -1144,14 +1230,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Alegría, Elevado, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/LA_Confidential.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 45,
+        id: "45",
         name: "Lemon Tree",
         thc: "17%",
         cbd: "0.03%",
@@ -1170,14 +1258,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Alegría, Elevado, Energética",
         negatives: "Mareo, Ansiedad, Dolor de Cabeza",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Lemon_Tree.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 46,
+        id: "46",
         name: "Northern Lights",
         thc: "22%",
         cbd: "0.1%",
@@ -1196,14 +1286,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Creatividad, Energética, Relajación, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Northern_Lights.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 47,
+        id: "47",
         name: "OG Kush",
         thc: "19.11%",
         cbd: "0.10%",
@@ -1222,12 +1314,14 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Relajación, Euforia, Hambre, Sueño",
         negatives: "Paranoia, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/OG_Kush.jpg",
         stock: 100,
         imgAttributionLink:
             "https://weedmaps.com/brands/the-good/products/the-good-og-kush/reviews",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
         id: 48,
@@ -1249,14 +1343,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Relajación, Enfoque, Euforia, Sueño",
         negatives: "Ansiedad, Mareo, Boca Seca",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Pennywise.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 49,
+        id: "49",
         name: "Platinum OG",
         thc: "18.60%",
         cbd: "0.70%",
@@ -1275,15 +1371,17 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Relajación, Alegría, Sueño, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Platinum_OG.jpg",
         stock: 100,
         imgAttributionLink:
             "https://essencevegas.com/kb/cannabis-strains/mmg-platinum-og/",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 50,
+        id: "50",
         name: "Purple Kush",
         thc: "20.8%",
         cbd: "0.1%",
@@ -1302,14 +1400,16 @@ export const data = [
         heightInInchesMax: 30.0,
         feelings: "Relajación, Alegría, Sueño, Hambre",
         negatives: "Boca Seca, Paranoia, Mareo, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Purple_Kush.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 51,
+        id: "51",
         name: "Purple Urkle",
         thc: "20.60%",
         cbd: "0.10%",
@@ -1328,14 +1428,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Euforia, Elevado, Sueño, Hambre",
         negatives: "Boca Seca, Mareo, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Purple_Urkle.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 52,
+        id: "52",
         name: "Ringo’s Gift",
         thc: "0.60%",
         cbd: "14.70%",
@@ -1354,14 +1456,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Sueño, Enfoque, Elevado",
         negatives: "Mareo, Boca Seca, Dolor de cabeza, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Ringos_Gift.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 53,
+        id: "53",
         name: "Sensi Star",
         thc: "20.6%",
         cbd: null,
@@ -1380,15 +1484,17 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Euforia, Elevado, Sueño, Hambre, Hormigueo",
         negatives: "Boca Seca, Mareo, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Sensi_Star.jpg",
         stock: 100,
         imgAttributionLink:
             "https://cannacabana.com/products/7acres-sensi-star",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 54,
+        id: "54",
         name: "SFV OG",
         thc: "17.30%",
         cbd: "0.10%",
@@ -1407,14 +1513,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Alegría, Relajación, Euforia, Sueño",
         negatives: "Ansiedad, Boca Seca, Paranoia, Dolor de Cabeza",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/SFV_OG.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 55,
+        id: "55",
         name: "Skywalker OG",
         thc: "20.40%",
         cbd: "0.07%",
@@ -1433,14 +1541,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Sueño, Hormigueo",
         negatives: "Mareo, Boca Seca, Ojos secos, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Skywalker_OG.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 56,
+        id: "56",
         name: "Snoop's Dream",
         thc: "23.17%",
         cbd: "0.22%",
@@ -1459,14 +1569,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Alegría, Elevado, Euforia",
         negatives: "Paranoia, Ansiedad, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Snoops_Dream.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 57,
+        id: "57",
         name: "Sour Diesel",
         thc: "19%",
         cbd: "0.10%",
@@ -1485,14 +1597,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Elevado, Energética, Verborragia, Creatividad",
         negatives: "Mareo, Paranoia, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Sour_Diesel.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 58,
+        id: "58",
         name: "Sour Tsunami",
         thc: "1.00%",
         cbd: "11.20%",
@@ -1511,14 +1625,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Sueño, Alegría, Hormigueo, Enfoque",
         negatives: "Mareo, Boca Seca, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Sour_Tsunami.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 59,
+        id: "59",
         name: "Stephen Hawking Kush",
         thc: "2.10%",
         cbd: "13.10%",
@@ -1537,14 +1653,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Sueño, Relajación, Euforia, Enfoque",
         negatives: "Mareo, Boca Seca, Dolor de cabeza, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Stephen_Hawking_Kush.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 60,
+        id: "60",
         name: "Strawberry Banana",
         thc: "21.54%",
         cbd: "0.06%",
@@ -1563,14 +1681,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Relajación, Alegría, Elevado, Hambre",
         negatives: "Mareo, Boca Seca, Ansiedad, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Strawberry_Banana.jpg",
         stock: 100,
         imgAttributionLink: "https://thcdesign.com/strains/strawberry-banana/",
         imgCreativeCommons: true,
+        idCategory: "1"
     },
     {
-        id: 61,
+        id: "61",
         name: "Strawberry Cough",
         thc: "16.50%",
         cbd: "0.07%",
@@ -1589,14 +1709,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Elevado, Euforia, Creatividad, Verborragia, Energética",
         negatives: "Boca Seca, Mareo, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Strawberry_Cough.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 62,
+        id: "62",
         name: "Sunset Sherbet",
         thc: "17.00%",
         cbd: "0.08%",
@@ -1615,14 +1737,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Sueño, Alegría, Elevado, Risueño, Relajación",
         negatives: "Ansiedad, Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Sunset_Sherbet.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 63,
+        id: "63",
         name: "Super Lemon Haze",
         thc: "18.60%",
         cbd: "0.09%",
@@ -1641,14 +1765,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Elevado, Energética, Creatividad",
         negatives: "Mareo, Boca Seca, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Super_Lemon_Haze.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 64,
+        id: "64",
         name: "Superglue",
         thc: "20.10%",
         cbd: "0.04%",
@@ -1667,14 +1793,16 @@ export const data = [
         heightInInchesMax: 30.0,
         feelings: "Relajación, Alegría, Euforia, Hambre",
         negatives: "Mareo, Boca Seca, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Superglue.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 65,
+        id: "65",
         name: "Tangie",
         thc: "13.70%",
         cbd: "0.05%",
@@ -1693,14 +1821,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Alegría, Elevado, Energética, Verborragia",
         negatives: "Boca Seca, Mareo, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Tangie.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 66,
+        id: "66",
         name: "Trainwreck",
         thc: "16.14%",
         cbd: "0.08%",
@@ -1719,14 +1849,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Elevado, Relajación, Alegría, Creatividad, Euforia",
         negatives: "Boca Seca, Mareo, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Trainwreck.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 67,
+        id: "67",
         name: "Wedding Cake",
         thc: "15.7%",
         cbd: "0.36%",
@@ -1745,14 +1877,16 @@ export const data = [
         heightInInchesMax: 50.0,
         feelings: "Relajación, Alegría, Elevado, Estimulante, Hambre",
         negatives: "Ansiedad, Mareo, Boca Seca, Paranoia",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Wedding_Cake.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 68,
+        id: "68",
         name: "White Fire",
         thc: "19%",
         cbd: "0.13%",
@@ -1771,14 +1905,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Alegría, Relajación, Euforia, Elevado, Creatividad",
         negatives: "Boca Seca, Ansiedad, Mareo, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/White_Fire.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 69,
+        id: "69",
         name: "XJ13",
         thc: "18.25%",
         cbd: "0.06%",
@@ -1797,14 +1933,16 @@ export const data = [
         heightInInchesMax: 90.0,
         feelings: "Elevado, Alegría, Energética, Creatividad, Verborragia",
         negatives: "Boca Seca, Ansiedad, Paranoia, Ojos secos",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/XJ13.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 70,
+        id: "70",
         name: "Zkittlez",
         thc: "14.18%",
         cbd: "0.04%",
@@ -1823,14 +1961,16 @@ export const data = [
         heightInInchesMax: 70.0,
         feelings: "Relajación, Alegría, Sueño, Hambre",
         negatives: "Boca Seca, Mareo, Ansiedad",
+        price: 1,
         imgThumb:
             "https://s3.us-west-004.backblazeb2.com/encurate/static/strain/Zkittlez.jpg",
         stock: 100,
         imgAttributionLink: null,
         imgCreativeCommons: false,
+        idCategory: "1"
     },
     {
-        id: 71,
+        id: "71",
         name: "Chemdawg",
         thc: "18%",
         cbd: "0%",
@@ -1839,13 +1979,15 @@ export const data = [
         feelings: "Euforia, Inspiración, Creatividad",
         negatives: "Boca seca, Ojos secos, Mareo",
         helps: "Estrés, Ansiedad, Dolor",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-1.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Híbrida",
+        idCategory: "1"
     },
     {
-        id: 72,
+        id: "72",
         name: "Skunk Dawg",
         thc: "21%",
         cbd: "0%",
@@ -1854,13 +1996,15 @@ export const data = [
         feelings: "Verborragia, Enfoque, Energética",
         negatives: "Boca seca, Paranoia, Ansiedad",
         helps: "Estrés, Depresión, Ansiedad",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-32.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Sativa",
+        idCategory: "1"
     },
     {
-        id: 73,
+        id: "73",
         name: "Blueberry AK",
         thc: "20%",
         cbd: "0%",
@@ -1869,13 +2013,15 @@ export const data = [
         feelings: "Euforia, Relajación, Hambre",
         negatives: "Dolor de cabeza, Mareo, Boca seca",
         helps: "Estrés, Ansiedad, Depresión",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-16.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Híbrida",
+        idCategory: "1"
     },
     {
-        id: 74,
+        id: "74",
         name: "Strawberry Cheesecake",
         thc: "16%",
         cbd: "0%",
@@ -1884,13 +2030,15 @@ export const data = [
         feelings: "Alegría, Sueño, Euforia",
         negatives: "Ojos secos, Mareo, Boca seca",
         helps: "Dolor, Estrés, Depresión",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-27.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Indica",
+        idCategory: "1"
     },
     {
-        id: 75,
+        id: "75",
         name: "Cereal Milk",
         thc: "22%",
         cbd: "0%",
@@ -1899,13 +2047,15 @@ export const data = [
         feelings: "Relajacion, Risueño, Despierto",
         negatives: "Dolor de cabeza, Ansiedad, Paranoia",
         helps: "Ansiedad, Depresión, Estrés",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/short-dense-heavy/strain-4.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Híbrida",
+        idCategory: "1"
     },
     {
-        id: 76,
+        id: "76",
         name: "Cherry Cheesecake",
         thc: "0%",
         cbd: "11%",
@@ -1914,13 +2064,15 @@ export const data = [
         feelings: "Risueño, Verborragia, Enfoque",
         negatives: "Boca seca",
         helps: "Ansiedad, Enfermedad de Crohn's",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-19.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Indica",
+        idCategory: "1"
     },
     {
-        id: 77,
+        id: "77",
         name: "Cherry On Top",
         thc: "0%",
         cbd: "8%",
@@ -1929,13 +2081,15 @@ export const data = [
         feelings: "Alegría, Sueño, Hambre",
         negatives: "Boca seca",
         helps: "Depresión, Ansiedad, Insomnio",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/generic/strain-18.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Híbrida",
+        idCategory: "1"
     },
     {
-        id: 78,
+        id: "78",
         name: "Mochi",
         thc: "10%",
         cbd: "0%",
@@ -1944,9 +2098,73 @@ export const data = [
         feelings: "Sueño, Relajación, Hambre",
         negatives: "Ansiedad, Paranoia, Ojos secos",
         helps: "Ansiedad, Insomnio, Estrés",
+        price: 1,
         imgThumb:
             "https://images.leafly.com/flower-images/defaults/purple/strain-5.png?auto=compress%2Cformat&w=350&dpr=1",
         stock: 100,
         strainType: "Híbrida",
+        idCategory: "1"
     },
+    {
+        id: "79", 
+        name: "Sedas", 
+        price: 500, 
+        imgThumb: "/sedas.jpg", 
+        stock: 50,
+        idCategory: "2"
+    },
+    {
+        id: "80", 
+        name: "Encendedor", 
+        price: 800, 
+        imgThumb: "/encendedor.jpg", 
+        stock: 50,
+        idCategory: "2"
+    },
+    {
+        id: "81", 
+        name: "Vaporizador Vulcan", 
+        price: 10500, 
+        imgThumb: "/vaporizador.jpg", 
+        stock: 50,
+        idCategory: "3"
+    },
+    {
+        id: "82", 
+        name: "Pikachu", 
+        price: 5500, 
+        imgThumb: "/pikachu.jpg", 
+        stock: 50,
+        idCategory: "2"
+    }
 ];
+
+export const getProductos = () => {
+    return new Promise((resolve)=> {
+        setTimeout(()=>{
+            resolve(data);
+        }, 700)
+    })
+}
+
+// funcion similar pero que retorne 1 solo item
+
+export const getUnProducto = (id) => {
+    return new Promise(resolve => {
+        setTimeout(()=> {
+            const producto = data.find(prod => prod.id === id);
+            resolve(producto);
+        }, 700)
+    })
+}
+
+// Funcion que retorna una categoria.
+
+export const getProductosPorCategoria = (idCategory) => {
+    return new Promise(resolve => {
+        setTimeout( () => {
+            const ProductosCategoria = data.filter(prod => prod.idCategory === idCategory);
+            resolve(ProductosCategoria);
+        }, 700)
+    })
+}

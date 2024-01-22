@@ -13,18 +13,18 @@ export const NavBar = () => {
       <nav>
         <ul className='nav-menu'>
           <li>
-            <NavLink to="/category/1">
+            <NavLink to="/category/2">
               Shop
             </NavLink>
           </li>
           <li>
-            <NavLink to="/category/2">
-              Quienes Somos
+            <NavLink to="/category/1">
+              Cepas
             </NavLink>
           </li>
           <li>
             <NavLink to="/category/3">
-              Login
+              Vaporizadores
             </NavLink>
           </li>
         </ul>

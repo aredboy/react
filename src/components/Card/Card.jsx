@@ -5,9 +5,8 @@ const Cards = ( {name, imgThumb, feelings, helps, negatives, thc, cbd, cbg, rati
 
   // console.log(count);
 
-  let imageProduct = stock < 45 ? `/public/imgSoldOut.jpg`
+  let imageProduct = stock < 20 ? `/public/imgSoldOut.jpg`
   : `${imgThumb}`
-
 
   return (
     <Card style={{ width: '16rem', boxShadow: '5px 5px 5px hsla(0, 0%, 0%, 0.1' }}>
