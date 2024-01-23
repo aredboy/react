@@ -2,8 +2,6 @@ import './CartWidget.css';
 import { useState } from 'react';
 import { Modal } from 'react-bootstrap';
 
-
-
 const CartWidget = ({count}) => {
   const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
