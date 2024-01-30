@@ -1,4 +1,4 @@
-import CartWidget from '../CartWidget/CartWidget';
+import Cart from '../Cart/Cart';
 import Brand from '../Brand/Brand';
 import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
@@ -29,7 +29,7 @@ export const NavBar = () => {
           </li>
         </ul>
       </nav>
-      <CartWidget/>
+      <Cart/>
 
     </header>
   )
