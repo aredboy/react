@@ -56,50 +56,58 @@ export const CartProvider = ({ children }) => {
         setTotalQuantity(0);
     }
 
-    // const productSum = (id) => {
-    //     const addedProduct = cart.find(prod => prod.item.id === id);
+    const productSum = (id) => {
+        const addedProduct = cart.find(prod => prod.item.id === id);
+        console.log('ProductSum called with ID:', id);
 
-    //     if(addedProduct) {
-    //     const updatedCart = cart.map(prod => {
-    //         if(prod.item.id === id){
-    //             return {...prod, quantity: prod.quantity + 1};
-    //             } else {
-    //                 return prod;
-    //             }
-    //         })
-    //         setCart(updatedCart);
-    //         setTotalQuantity(prev => prev + 1);
-    //         setTotal(prev => prev + (addedProduct.item.price));
-    //     }
-    // }
+        if(addedProduct) {
+        const updatedCart = cart.map(prod => {
+            if(prod.item.id === id){
+                return {...prod, quantity: prod.quantity + 1};
+                } else {
+                    return prod;
+                }
+            })
+            setCart(updatedCart);
+            setTotalQuantity(prev => prev + 1);
+            setTotal(prev => prev + (addedProduct.item.price));
+        } else {
+            console.error(`Product with ID ${id} not found in cart.`);
+        }
+    }
 
-    // const productRest = (id) => {
-    //     const removedProduct = cart.find(prod => prod.item.id === id);
+    const productRest = (id) => {
+        const removedProduct = cart.find(prod => prod.item.id === id);
+        console.log('ProductSum called with ID:', id);
+        
+        if (removedProduct) {
+            if (removedProduct.quantity > 1) {
+                const updatedCart = cart.map(prod => {
+                    if (prod.item.id === id) {
+                        return { ...prod, quantity: prod.quantity - 1 };
+                    } else {
+                        return prod;
+                    }
+                });
     
-    //     if (removedProduct && removedProduct.quantity > 1) {
-    //         const updatedCart = cart.map(prod => {
-    //             if (prod.item.id === id) {
-    //                 return { ...prod, quantity: prod.quantity - 1 };
-    //             } else {
-    //                 return prod;
-    //             }
-    //         });
+                setCart(updatedCart);
+                setTotalQuantity(prev => prev - 1);
+                setTotal(prev => prev - removedProduct.item.price);
+            } else {
+                const updatedCart = cart.filter(prod => prod.item.id !== id);
     
-    //         setCart(updatedCart);
-    //         setTotalQuantity(prev => prev - 1);
-    //         setTotal(prev => prev - removedProduct.item.price);
-    //     } else if (removedProduct && removedProduct.quantity === 1) {
-    //         const updatedCart = cart.filter(prod => prod.item.id !== id);
-    
-    //         setCart(updatedCart);
-    //         setTotalQuantity(prev => prev - 1);
-    //         setTotal(prev => prev - removedProduct.item.price);
-    //     }
-    // };
+                setCart(updatedCart);
+                setTotalQuantity(prev => prev - 1);
+                setTotal(prev => prev - removedProduct.item.price);
+            }
+        } else {
+            console.error(`Product with ID ${id} not found in cart.`);
+        }
+    };
 
     return (
         <CartContext.Provider value={{cart, totalQuantity, total, addToCart, eliminateProduct, 
-            emptyCart}}> {children} </CartContext.Provider>
+            emptyCart, productRest, productSum}}> {children} </CartContext.Provider>
     )
 
 }

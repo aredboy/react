@@ -2143,7 +2143,7 @@ export const getProductos = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(data);
-        }, 700);
+        }, 100);
     });
 };
 
@@ -2154,7 +2154,7 @@ export const getUnProducto = (id) => {
         setTimeout(() => {
             const producto = data.find((prod) => prod.id === id);
             resolve(producto);
-        }, 700);
+        }, 100);
     });
 };
 
@@ -2167,6 +2167,6 @@ export const getProductosPorCategoria = (idCategory) => {
                 (prod) => prod.idCategory === idCategory
             );
             resolve(ProductosCategoria);
-        }, 700);
+        }, 100);
     });
 };
