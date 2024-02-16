@@ -3,7 +3,6 @@ import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
 import CartWidget from '../CartWidget/CartWidget';
 
-
 export const NavBar = () => {
   return (
     <header className='navbar'>
@@ -13,17 +12,17 @@ export const NavBar = () => {
       <nav>
         <ul className='nav-menu'>
           <li>
-            <NavLink to="/category/shop">
+            <NavLink className="navlink" to="/category/shop">
               Shop
             </NavLink>
           </li>
           <li>
-            <NavLink to="/category/cepas">
+            <NavLink className="navlink" to="/category/cepas">
               Cepas
             </NavLink>
           </li>
           <li>
-            <NavLink to="/category/vaporizadores">
+            <NavLink className="navlink" to="/category/vaporizadores">
               Vaporizadores
             </NavLink>
           </li>

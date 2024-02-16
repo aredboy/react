@@ -1,8 +1,23 @@
-# React + Vite
+# BA Hight Club Store
+This project is a basic e-commerce utilized for the React course at Coderhouse. The application allows the user to navigate through a list of medicinal cannabis products and buy them online. The products and the orders are stored in Firebase.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Applied Technologies 
+- React
+- Vite
+- React Router
+- Firebase
 
-Currently, two official plugins are available:
+## Functions
+- Navigate through an available list of products
+- Add products to the shopping cart
+- Navigate the shopping cart
+- End the sale simulation recieving an Order Id.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+1. Clone the repository in your local desktop.
+2. Open a terminal.
+3. Execute the command npm install to download the modules and dependencies.
+4. Execute the command npm run dev to visualize the project. 
+
+### License
+This project is licensed under MIT.

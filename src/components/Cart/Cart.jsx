@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
 const Cart = () => {
-  const {cart, emptyCart, total, totalQuantity} = useContext(CartContext);
+  const {cart, emptyCart, total, totalQuantity, cachedPriceInPesos} = useContext(CartContext);
   
   if(totalQuantity === 0 ) {
     return (
@@ -18,14 +18,22 @@ const Cart = () => {
   }
   return (
     <>
-        {
-          cart.map(prod => <CartItem key={prod.id} {...prod}/>)
-        }
+        {cart.map(({item, quantity, idCategory}) => (
+          <CartItem 
+          key={item.id} 
+          item={item} 
+          quantity={quantity} 
+          price={item.price} 
+          idCategory={idCategory}
+          cachedPriceInPesos={idCategory === "cepas" ? cachedPriceInPesos : null}
+          />
+          )
+          )}
         <Card.Title>Total: $ {total} </Card.Title>
         <Button onClick={emptyCart}> Vaciar Carrito </Button>
         <br />
         <br />
-        <Card.Link to="/checkout"> Finalizar Compra </Card.Link>
+        <Link to="/checkout"><Button>Finalizar Compra </Button></Link>
     </>
   )
 }

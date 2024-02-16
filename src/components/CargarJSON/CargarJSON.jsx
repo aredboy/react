@@ -9,7 +9,7 @@ const CargarJSON = () => {
         const loadAnArchive = async() => {
             try {
                 const res = await fetch("./products.json");
-                console.log(res);
+                // console.log(res);
                 const jsonData = await res.json();
 
                 jsonData.forEach( async(product) => {

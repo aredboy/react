@@ -10,8 +10,13 @@
 .nav-menu li {
     display: inline-block;
     padding: 1em;
+    text-decoration: none;
 }
 .nav-menu li:hover {
     cursor: pointer;
+}
+
+.navlink {
+    text-decoration: none;
 }
 

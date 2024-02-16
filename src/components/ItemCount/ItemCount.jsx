@@ -16,7 +16,7 @@ const ItemCount = ({initial, stock, functionAdd}) => {
             setContador(count - 1);
     }
     }
-    
+
     return (
         <>
         <div>

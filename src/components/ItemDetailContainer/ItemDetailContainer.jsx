@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-// import { getUnProducto } from "../../asyncmock";
 import ItemDetail from "../ItemDetail/ItemDetail";
 import { useParams } from "react-router-dom";
 import { db } from "../../services/config";
@@ -23,12 +22,6 @@ const ItemDetailContainer = () => {
         .catch(error => console.log("cualquiera", error))
     }, [idItem])
 
-
-    // useEffect( () => {
-    //     getUnProducto(idItem)
-    //     .then(res => setProducto(res))
-    // }, [idItem])
-  
 
     return (
     <div>

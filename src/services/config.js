@@ -2,7 +2,8 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXL1F4p6jmeW41JPI4gl5k6esPLPa1IaM",
+  apiKey: import.meta.env.VITE_API_KEY_FIREBASSE_CONFIG,
+  // en la vida real el archivo .env va oculto con git ignore
   authDomain: "bahigh-93748.firebaseapp.com",
   projectId: "bahigh-93748",
   storageBucket: "bahigh-93748.appspot.com",
@@ -13,6 +14,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
 export const db = getFirestore(app);
 

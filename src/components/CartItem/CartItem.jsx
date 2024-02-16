@@ -6,15 +6,17 @@ import { Button } from 'react-bootstrap';
 import { CartContext } from "../../context/CartContext";
 import { useContext } from "react";
 
-const CartItem = ({item, quantity, stock}) => {
-  const {productSum, productRest} = useContext(CartContext);
-  console.log(item.imgThumb, stock);
+const CartItem = ({item, quantity, idCategory, price}) => {
+  const {productSum, productRest, cachedPriceInPesos} = useContext(CartContext);
+
   return (
     <Card>
       <Card.Title>{item.name}</Card.Title>
       <Card.Img variant='top' src={item.imgThumb} alt={item.name} style={{width:'200px', borderRadius:'3px'}}/>
-      <Card.Text> Stock: {stock} </Card.Text>
-      <Card.Text> Precio: $ {item.price} </Card.Text>
+      <Card.Text> Stock: {item.stock} </Card.Text>
+      <Card.Text>
+        Precio: ${idCategory === "cepas" ? cachedPriceInPesos : price}
+      </Card.Text>
       <Container>
       <Row>
         <Col>
