@@ -98,7 +98,7 @@ const Checkout = () => {
                 <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="telephone">Teléfono</Form.Label>
                 <Form.Control type="text" id="telephone" onChange={(e)=> setTelephone(e.target.value)}/>
             </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3">
                 <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="email">Email</Form.Label>
                 <Form.Control placeholder="Ingrese su email" type="email" id="email" onChange={(e)=> setEmail(e.target.value)}/>
             </Form.Group>
@@ -111,7 +111,7 @@ const Checkout = () => {
                 error && <Form.Text style={{color:"red"}}> {error} </Form.Text>
             }
 
-            <Button variant="success"> Finalizar Orden </Button>
+            <Button variant="success" type="submit"> Finalizar Orden </Button>
 
             {
                 orderID && <Form.Text> Gracias por su compra! Tu número de orden es el siguiente: {orderID} </Form.Text>
