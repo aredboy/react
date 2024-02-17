@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Open+Sans:wght@500&family=Poppins:wght@500;600&display=swap');
+
+.products {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(212, 136, 36);
+    margin: 1em;
+}

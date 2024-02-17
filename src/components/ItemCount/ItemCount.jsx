@@ -20,11 +20,11 @@ const ItemCount = ({initial, stock, functionAdd}) => {
     return (
         <>
         <div>
-            <Button onClick={decrease}>-</Button>
+            <Button onClick={decrease} variant='success'>-</Button>
             <p> {count} </p>
-            <Button onClick={increase}>+</Button>
+            <Button onClick={increase} variant='success'>+</Button>
         </div>
-            <Button onClick={()=>functionAdd(count)}> Agregar al Carrito </Button>
+            <Button onClick={()=>functionAdd(count)} variant='success'> Agregar al Carrito </Button>
         </>
   )
 }

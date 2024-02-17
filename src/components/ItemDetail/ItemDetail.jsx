@@ -29,10 +29,10 @@ const ItemDetail = ({id, name, price, imgThumb, feelings, helps, thc, cbd, cbg, 
 
   return (
     <div className="contenedorItem">
-        <h2>Nombre: {name}</h2>
+        <h2 className="title">Nombre: {name}</h2>
         {
           idCategory === "cepas" ? (
-              loading ? <p>Loading...</p> : <h3>Precio: $ {priceInPesos}</h3>
+              loading ? <p>Loading...</p> : <h3 className='sub-title'>Precio: $ {priceInPesos}</h3>
           ) : (
                   <h3>Precio: ${price}</h3>
               )
@@ -50,7 +50,7 @@ const ItemDetail = ({id, name, price, imgThumb, feelings, helps, thc, cbd, cbg, 
         <img src={imgThumb} alt={name} />
 
         {
-          addQuantity > 0 ? (<Link to="/cart"><Button>Terminar Compra</Button></Link>) : (<ItemCount
+          addQuantity > 0 ? (<Link to="/cart"><Button variant="success">Terminar Compra</Button></Link>) : (<ItemCount
           functionAdd = {quantityHandler} stock={stock} initial = {1}/>) 
         }
     

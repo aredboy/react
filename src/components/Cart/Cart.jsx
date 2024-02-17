@@ -11,8 +11,8 @@ const Cart = () => {
   if(totalQuantity === 0 ) {
     return (
       <>
-        <h2>No hay productos en tu carrito</h2>
-        <Link to="/">Ver Productos</Link>
+        <h2 className="products">No hay productos en tu carrito..</h2>
+        <Link to="/" className="title">Ver Productos !</Link>
       </>
     );
   }
@@ -30,10 +30,10 @@ const Cart = () => {
           )
           )}
         <Card.Title>Total: $ {total} </Card.Title>
-        <Button onClick={emptyCart}> Vaciar Carrito </Button>
+        <Button onClick={emptyCart} variant="secondary"> Vaciar Carrito </Button>
         <br />
         <br />
-        <Link to="/checkout"><Button>Finalizar Compra </Button></Link>
+        <Link to="/checkout"><Button variant="success">Finalizar Compra </Button></Link>
     </>
   )
 }

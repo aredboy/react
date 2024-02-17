@@ -2,7 +2,8 @@ import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, getDoc, doc } from "firebase/firestore";
-
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 const Checkout = () => {
     const {cart, emptyCart, total, cachedPriceInPesos} = useContext(CartContext);
@@ -72,12 +73,12 @@ const Checkout = () => {
 
   return (
     <div>
-        <h2>Checkout</h2>
+        <h2 className="title">Checkout</h2>
 
-        <form onSubmit={submitHandler}>
+        <Form onSubmit={submitHandler}>
             {
                 cart.map(product => (
-                    <div key={product.item.id}>
+                    <div className="contenedor" key={product.item.id}>
                         <p> {product.item.name} x {product.quantity}</p>
                         <p> $ {product.idCategory === "cepas" ? cachedPriceInPesos*product.item.price : product.item.price}</p>
                         <hr />
@@ -85,38 +86,38 @@ const Checkout = () => {
                 ))
             }
 
-            <div>
-                <label htmlFor="name">Nombre</label>
-                <input type="text" id="name" onChange={(e)=> setName(e.target.value)}/>
-            </div>
-            <div>
-                <label htmlFor="surname">Apellido</label>
-                <input type="text" id="surname" onChange={(e)=> setSurname(e.target.value)}/>
-            </div>
-            <div>
-                <label htmlFor="telephone">Teléfono</label>
-                <input type="text" id="telephone" onChange={(e)=> setTelephone(e.target.value)}/>
-            </div>
-            <div>
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" onChange={(e)=> setEmail(e.target.value)}/>
-            </div>
-            <div>
-                <label htmlFor="emailConfirm">Confirmación de Email</label>
-                <input type="email" id="emailConfirm" onChange={(e)=> setEmailConfirm(e.target.value)}/>
-            </div>
+            <Form.Group className="mb-3">
+                <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="name">Nombre</Form.Label>
+                <Form.Control type="text" id="name" onChange={(e)=> setName(e.target.value)}/>
+            </Form.Group>
+            <Form.Group className="mb-3">
+                <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="surname">Apellido</Form.Label>
+                <Form.Control type="text" id="surname" onChange={(e)=> setSurname(e.target.value)}/>
+            </Form.Group>
+            <Form.Group className="mb-3">
+                <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="telephone">Teléfono</Form.Label>
+                <Form.Control type="text" id="telephone" onChange={(e)=> setTelephone(e.target.value)}/>
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="email">Email</Form.Label>
+                <Form.Control placeholder="Ingrese su email" type="email" id="email" onChange={(e)=> setEmail(e.target.value)}/>
+            </Form.Group>
+            <Form.Group className="mb-3">
+                <Form.Label style={{color:'rgb(212, 136, 36)'}} htmlFor="emailConfirm">Confirmación de Email</Form.Label>
+                <Form.Control placeholder="Vuelva a ingresar su email" type="email" id="emailConfirm" onChange={(e)=> setEmailConfirm(e.target.value)}/>
+            </Form.Group>
 
             {
-                error && <p style={{color:"red"}}> {error} </p>
+                error && <Form.Text style={{color:"red"}}> {error} </Form.Text>
             }
 
-            <button> Finalizar Orden </button>
+            <Button variant="success"> Finalizar Orden </Button>
 
             {
-                orderID && <strong> Gracias por su compra! Tu número de orden es el siguiente: {orderID} </strong>
+                orderID && <Form.Text> Gracias por su compra! Tu número de orden es el siguiente: {orderID} </Form.Text>
             }
             
-        </form>
+        </Form>
     </div>
   )
 }

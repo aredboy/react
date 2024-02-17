@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Open+Sans:wght@500&family=Poppins:wght@500;600&display=swap');
+
+
 .title {
-    font-size: 1.2em;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8em;
     margin: 1em;
-    cursor: pointer;
+    color: green;
+    text-decoration: none;
 }

@@ -3,7 +3,9 @@ import './Brand.css'
 
 const Brand = () => {
   return (
-    <div className='title'>Buenos Aires High Club</div>
+    <div>
+      <h1 className='title'>Buenos Aires High Club</h1>
+    </div>
   )
 }
 
